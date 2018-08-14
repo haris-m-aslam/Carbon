@@ -78,4 +78,6 @@ return [
                 return $number.($number === 1 ? 're' : 'e');
         }
     },
+    'list' => ':item, :item',
+    'list_end' => ':list et :last-item',
 ];

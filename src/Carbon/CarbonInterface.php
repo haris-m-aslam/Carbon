@@ -486,6 +486,8 @@ interface CarbonInterface extends DateTimeInterface, JsonSerializable
     public const JUST_NOW = 02;
     public const ONE_DAY_WORDS = 04;
     public const TWO_DAY_WORDS = 010;
+    public const DIFF_AS_ARRAY = 020;
+    public const DIFF_SPACE_SEPARATOR = 040;
 
     /**
      * Diff syntax options.

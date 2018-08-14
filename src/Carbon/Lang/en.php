@@ -55,4 +55,6 @@ return [
             )
         );
     },
+    'list' => ':item, :item',
+    'list_end' => ':list and :last-item',
 ];
